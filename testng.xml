@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="tests">
+    <test name="API Assignment">
+        <listeners>
+            <listener class-name="com.assignment.listeners.TestListener" />
+        </listeners>
+        <classes>
+            <class name="com.assignment.tests.CategoryTests"/>
+        </classes>
+    </test>
+</suite>
